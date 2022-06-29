@@ -16,116 +16,116 @@ export class ApiServiceService {
   //CLIENTE
 
   getmayorTicketsCreados(){
-    return this.http.get('http://localhost:8080/clientes/mayorTicketsCreados');
+    return this.http.get('https://backbd.herokuapp.com/clientes/mayorTicketsCreados');
   }
 
   getclientesTodosLosPlanes(){
-    return this.http.get('http://localhost:8080/clientes/clientesTodosLosPlanes');
+    return this.http.get('https://backbd.herokuapp.com/clientes/clientesTodosLosPlanes');
   }
 
   
   getclientesMasCuatroTickets(){
-    return this.http.get('http://localhost:8080/clientes/clientesMasCuatroTickets');
+    return this.http.get('https://backbd.herokuapp.com/clientes/clientesMasCuatroTickets');
   }
 
   getsinContratarPackFull(){
-    return this.http.get('http://localhost:8080/clientes/sinContratarPackFull');
+    return this.http.get('https://backbd.herokuapp.com/clientes/sinContratarPackFull');
   }
 
   getsoloPackFull(){
-    return this.http.get('http://localhost:8080/clientes/soloPackFull');
+    return this.http.get('https://backbd.herokuapp.com/clientes/soloPackFull');
   }
 
   getmasDeCuota(){
-    return this.http.get('http://localhost:8080/clientes/masDeCuota');
+    return this.http.get('https://backbd.herokuapp.com/clientes/masDeCuota');
   }
 
   getmenosDeCuota(){
-    return this.http.get('http://localhost:8080/clientes/menosDeCuota');
+    return this.http.get('https://backbd.herokuapp.com/clientes/menosDeCuota');
   }
 
   getbuscarClienteNombreApellido(){
-    return this.http.get('http://localhost:8080/clientes/buscarClienteNombreApellido');
+    return this.http.get('https://backbd.herokuapp.com/clientes/buscarClienteNombreApellido');
   }
 
   //EMPLEADO
 
   getmayorTicketsAtendidos(){
-    return this.http.get('http://localhost:8080/empleados/mayorTicketsAtendidos');
+    return this.http.get('https://backbd.herokuapp.com/empleados/mayorTicketsAtendidos');
   }
 
   getempleadosMasCuatroTickets(){
-    return this.http.get('http://localhost:8080/empleados/empleadosMasCuatroTickets');
+    return this.http.get('https://backbd.herokuapp.com/empleados/empleadosMasCuatroTickets');
   }
 
   getsectorVentas(){
-    return this.http.get('http://localhost:8080/empleados/sectorVentas');
+    return this.http.get('https://backbd.herokuapp.com/empleados/sectorVentas');
   }
 
   getempleadoMasCercano(){
-    return this.http.get('http://localhost:8080/empleados/empleadoMasCercano');
+    return this.http.get('https://backbd.herokuapp.com/empleados/empleadoMasCercano');
   }
 
   //PLANES
 
   getconOnceCanales(){
-    return this.http.get('http://localhost:8080/planes/conOnceCanales');
+    return this.http.get('https://backbd.herokuapp.com/planes/conOnceCanales');
   }
 
   gettieneCanales(){
-    return this.http.get('http://localhost:8080/planes/tieneCanales');
+    return this.http.get('https://backbd.herokuapp.com/planes/tieneCanales');
   }
 
   //TICKET
 
   getticketSinResolver(){
-    return this.http.get('http://localhost:8080/tickets/ticketSinResolver');
+    return this.http.get('https://backbd.herokuapp.com/tickets/ticketSinResolver');
   }
 
   getclienteYEmpleado(){
-    return this.http.get('http://localhost:8080/tickets/clienteYEmpleado');
+    return this.http.get('https://backbd.herokuapp.com/tickets/clienteYEmpleado');
   }
 
   getticketsNoResueltos(){
-    return this.http.get('http://localhost:8080/tickets/ticketsNoResueltos');
+    return this.http.get('https://backbd.herokuapp.com/tickets/ticketsNoResueltos');
   }
 
   getatencionOficinas(){
-    return this.http.get('http://localhost:8080/tickets/atencionOficinas');
+    return this.http.get('https://backbd.herokuapp.com/tickets/atencionOficinas');
   }
 
   getticketsPorOficina(){
-    return this.http.get('http://localhost:8080/tickets/ticketsPorOficina');
+    return this.http.get('https://backbd.herokuapp.com/tickets/ticketsPorOficina');
   }
 
   getbuscarNombre(){
-    return this.http.get('http://localhost:8080/tickets/buscarNombre');
+    return this.http.get('https://backbd.herokuapp.com/tickets/buscarNombre');
   }
 
   getbuscarDesperfecto(){
-    return this.http.get('http://localhost:8080/tickets/buscarDesperfecto');
+    return this.http.get('https://backbd.herokuapp.com/tickets/buscarDesperfecto');
   }
 
   getbuscarResueltosUnPaso(){
-    return this.http.get('http://localhost:8080/tickets/buscarResueltosUnPaso');
+    return this.http.get('https://backbd.herokuapp.com/tickets/buscarResueltosUnPaso');
   }
 
   getbuscarBarrio(){
-    return this.http.get('http://localhost:8080/tickets/buscarBarrio');
+    return this.http.get('https://backbd.herokuapp.com/tickets/buscarBarrio');
   }
 
   //LOCALIDAD
 
   getBuscarLocalidad(){
-    return this.http.get('http://localhost:8080/localidades/buscarLocalidad');
+    return this.http.get('https://backbd.herokuapp.com/localidades/buscarLocalidad');
   }
 
   getbuscarLocalidadCerca(){
-    return this.http.get('http://localhost:8080/localidades/buscarLocalidadCerca');
+    return this.http.get('https://backbd.herokuapp.com/localidades/buscarLocalidadCerca');
   }
 
   buscarLocalidadPoligono(){
-    return this.http.get('http://localhost:8080/localidades/buscarLocalidadPoligono');
+    return this.http.get('https://backbd.herokuapp.com/localidades/buscarLocalidadPoligono');
   }
 
 }
